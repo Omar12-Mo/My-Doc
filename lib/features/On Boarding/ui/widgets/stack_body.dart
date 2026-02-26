@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:gap/gap.dart';
+
 import 'package:store_app/core/theme/text_style.dart';
 import 'package:store_app/generated/assets.dart';
 
