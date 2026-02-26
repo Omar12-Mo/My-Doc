@@ -12,4 +12,15 @@ class AppTextStle {
     fontWeight: FontWeight.w400,
     fontSize: 13,
   );
+
+  static TextStyle font16weight600white = TextStyle(
+    fontWeight: FontWeight.w600,
+    fontSize: 16,
+    color: Colors.white,
+  );
+  static TextStyle font13weight400blue = TextStyle(
+    color: AppColors.primaryColor,
+    fontSize: 13,
+    fontWeight: FontWeight.w400,
+  );
 }

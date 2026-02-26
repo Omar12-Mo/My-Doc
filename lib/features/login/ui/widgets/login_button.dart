@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:store_app/core/theme/app_colors.dart';
+import 'package:store_app/core/theme/text_style.dart';
 
 class LoginButton extends StatelessWidget {
   const LoginButton({
@@ -16,7 +17,7 @@ class LoginButton extends StatelessWidget {
       ),
       height: 52,
       child: Center(
-        child: Text("Login" , style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16, color: Colors.white),),
+        child: Text("Login" , style: AppTextStle.font16weight600white,),
       ),
     );
   }

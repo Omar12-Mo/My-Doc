@@ -27,11 +27,7 @@ class _RememberAndForgetPasswordState extends State<RememberAndForgetPassword> {
 
         secondary: Text(
           "Forgot Password?",
-          style: TextStyle(
-            color: AppColors.primaryColor,
-            fontSize: 13,
-            fontWeight: FontWeight.w400,
-          ),
+          style: AppTextStle.font13weight400blue
         ),
         contentPadding: EdgeInsets.symmetric(horizontal: 0),
         dense: true,
